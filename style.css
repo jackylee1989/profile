@@ -9,32 +9,46 @@ h1 {
   color: #1C819E;
   font-family: : arial;
   line-height: 20px;
-  font-size: 24px
+  font-size: 24px;
 }
 
 h2 {
   color: white;
   font-family: : arial;
   line-height: 20px;
-  font-size: 24px
+  font-size: 24px;
 }
 
 h3 {
   color: #1C819E;
   font-family: : arial;
   line-height: 24px;
-  font-size: 16px
+  font-size: 16px;
 }
 
 a {
   color: grey;
-  text-decoration: none
+  text-decoration: none;
   }
 
 a:hover {
   color: grey;
   opacity: 0.5;
   }
+
+#sidebar {
+  background: #555574;
+  opacity: 0.8;
+  position: fixed;
+  width: 120px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+}
+#page-content {
+  margin-left: 120px;
+}
 
 .container {
   width: 500px;   /* This sets the width */
@@ -48,8 +62,10 @@ a:hover {
 .list-inline > li {
   display: inline-block;
   padding: 0px 20px;
-  padding-left: 0px
+}
 
+.list-inline {
+  padding-left: 0px;
 }
 
 .text-justify {
@@ -69,7 +85,7 @@ a:hover {
    padding: 10px;
    margin-bottom: 20px;
    border-radius: 4px;
-   box-shadow:0px 1px 2px 0px rgba(0,0,0,0.2)
+   box-shadow:0px 1px 2px 0px rgba(0,0,0,0.2);
 }
 
 .contact {
@@ -77,9 +93,17 @@ a:hover {
    padding: 10px;
    margin-bottom: 20px;
    border-radius: 4px;
-   box-shadow:0px 1px 2px 0px rgba(0,0,0,0.2)
+   box-shadow:0px 1px 2px 0px rgba(0,0,0,0.2);
 }
 
+#sidebar ul {
+    list-style: none;
+    padding-left: 0px;
+    color: white;
+    font-size: 30px;
+    line-height: 2;
+    padding-top: 200px;
+}
 
 .card {
    background: white;
