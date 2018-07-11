@@ -1,0 +1,94 @@
+body {
+  background: #1C819E;
+  color: rgb(0,0,0);
+  font-size: 14px;
+  font-family: arial;
+}
+
+h1 {
+  color: #1C819E;
+  font-family: : arial;
+  line-height: 20px;
+  font-size: 24px
+}
+
+h2 {
+  color: white;
+  font-family: : arial;
+  line-height: 20px;
+  font-size: 24px
+}
+
+h3 {
+  color: #1C819E;
+  font-family: : arial;
+  line-height: 24px;
+  font-size: 16px
+}
+
+a {
+  color: grey;
+  text-decoration: none
+  }
+
+a:hover {
+  color: grey;
+  opacity: 0.5;
+  }
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  padding-left: 0px
+
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.btn-red {
+    background-color: #1C819E;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.banner {
+   background: #1C819E;
+   padding: 10px;
+   margin-bottom: 20px;
+   border-radius: 4px;
+   box-shadow:0px 1px 2px 0px rgba(0,0,0,0.2)
+}
+
+.contact {
+   background: white;
+   padding: 10px;
+   margin-bottom: 20px;
+   border-radius: 4px;
+   box-shadow:0px 1px 2px 0px rgba(0,0,0,0.2)
+}
+
+
+.card {
+   background: white;
+   padding: 20px;
+   margin-bottom: 20px;
+   border-radius: 4px;
+   box-shadow:0px 1px 2px 0px rgba(0,0,0,0.2)
+}
+
+.img-circle {
+  border-radius: 50%;
+}
